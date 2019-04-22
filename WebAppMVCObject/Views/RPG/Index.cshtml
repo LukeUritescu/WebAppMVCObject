@@ -61,8 +61,8 @@
                 @Html.DisplayFor(modelItem => item.Charisma)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Edit", "Edit", new { Name=item.Name /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new {Name=item.Name /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>
