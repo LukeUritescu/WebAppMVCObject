@@ -15,7 +15,8 @@ namespace WebAppMVCObject.Controllers
         {
             rpg = new List<IRPG>()
             {
-                new RPG()
+                new Fighter(),
+                new Wizard()
             };
         }
 

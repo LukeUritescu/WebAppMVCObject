@@ -79,7 +79,7 @@ namespace WebAppMVCObject.Models
 
         public string About()
         {
-            return $"My name is {Name}";
+            return $"My name is {Name} and I am a {this}";
         }
     }
 }
