@@ -56,7 +56,7 @@ namespace WebAppMVCObject
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Hello}/{action=Index}/{id?}");
+                    template: "{controller=RPG}/{action=Index}/{id?}");
             });
         }
     }
